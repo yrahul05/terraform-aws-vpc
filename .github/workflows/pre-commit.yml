@@ -16,4 +16,4 @@ jobs:
       - name: Set executable permissions to fix errors
         run: |
           # Remove executable permissions from non-executable files
-          find . -type f -exec chmod -x {} \;
+          run: chmod +x .git/hooks/*
