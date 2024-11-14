@@ -32,14 +32,14 @@ Please ensure you specify the correct 'source' path for the module.
 
 
 # Examples
-For detailed examples on how to use this module, please refer to the [Example](https://github.com/yrahul05/terraform-aws-vpc/tree/yrahul05/_example) directory within this repository.
+For detailed examples on how to use this module, please refer to the [Example](https://github.com/yrahul05/terraform-aws-vpc/tree/main/_example) directory within this repository.
 
 ## Authors
 Your Name
 Replace '[License Name]' and '[Your Name]' with the appropriate license and your information. Feel free to expand this README with additional details or usage instructions as needed for your specific use case.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/yrahul05/terraform-aws-vpc/blob/yrahul05/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/yrahul05/terraform-aws-vpc/blob/main/LICENSE) file for details.
 
 
 sed
