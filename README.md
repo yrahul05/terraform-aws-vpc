@@ -17,7 +17,7 @@ This Terraform module creates structured vpc for AWS resources with specific att
 
 ```hcl
 module "vpc" {
-  source                              = "git::https://github.com/yrahul05/terraform-aws-vpc.git?ref=main"
+  source                              = "git::https://github.com/yrahul05/terraform-aws-vpc.git?ref= main"
   name                                = "app"
   environment                         = "test"
   cidr_block                          = "10.0.0.0/16"
