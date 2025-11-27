@@ -51,14 +51,14 @@ CEO & CTO – [PrimeOps Technologies](https://primeops.co.in/)
 - ✅ Optional **VPC Flow Logs** with CloudWatch or S3 destination
 - ✅ Configurable **DHCP options**
 - ✅ Modular & production-ready layout
-- ✅ Seamless integration with other [PrimeOps-Technologies](git::https://github.com/yrahul05/terraform-aws-vpc.git) Terraform modules
+- ✅ Seamless integration with other [PrimeOps-Technologies](git::https://github.com/yrahul05/terraform-aws-vpc.git?ref=v1.0.0) Terraform modules
 
 ---
 ## ⚙️ Usage Example
 ### 🧱 Basic VPC Example
 ```hcl
 module "vpc" {
-  source  = "git::https://github.com/yrahul05/terraform-aws-vpc.git"
+  source  = "git::https://github.com/yrahul05/terraform-aws-vpc.git?ref=v1.0.0"
   version = "1.0.0"
   name        = "vpc"
   environment = "prod"
