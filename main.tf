@@ -1,5 +1,5 @@
 module "labels" {
-  source      = "git::https://github.com/yrahul05/terraform-aws-vpc.git?ref=v1.0.0"
+  source      = "git::https://github.com/yrahul05/terraform-aws-labels.git?ref=v1.0.0"
   name        = var.name
   label_order = var.label_order
   managedby   = var.managedby
